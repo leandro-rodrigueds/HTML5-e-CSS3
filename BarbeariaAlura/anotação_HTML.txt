@@ -1,0 +1,33 @@
+classe : first-letter = primeira letra {
+    muda a primeira letra
+}
+
+classe : first-line = primeira linha {
+    muda a primeira linha
+}
+
+classe : before = antes {
+
+}
+
+classe : after = depois{
+
+}
+
+//Seletores avançados
+
+main>p{
+    pega so o p que é filho direto da main
+}
+
+img + p{
+    seleciona os paragrafos apos uma imagem
+}
+
+img + p{
+    todos os paragrafosapos uma imagem
+}
+
+classe p:not(#missao){
+    todos os paragrafosmenos missao
+}
